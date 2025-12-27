@@ -53,19 +53,6 @@ It supports both **live transcription** and **audio file transcription**, with m
 - iOS Simulator or physical iOS device
 - Android emulator or physical Android device
 
-### Install
-
-```bash
-git clone https://github.com/Vusoni/WhisperAI-ReactNative.git
-cd WhisperAI-ReactNative
-
-npm install
-
-npx expo prebuild
-npm run ios  OR   npm run android
-
-Using the App
-
 First Launch
 	1.	Open the app
 	2.	Wait for the default model to finish loading
@@ -99,4 +86,19 @@ Changing Models
 
 
 
+
+
+
+### Install
+
+```bash
+git clone https://github.com/Vusoni/WhisperAI-ReactNative.git
+cd WhisperAI-ReactNative
+
+npm install
+
+npx expo prebuild
+npm run ios  OR   npm run android
+
+Using the App
 
