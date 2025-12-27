@@ -56,11 +56,47 @@ It supports both **live transcription** and **audio file transcription**, with m
 ### Install
 
 ```bash
-git clone https://github.com/Vusoni/whisper-cpp-test.git
-cd whisper-cpp-test
+git clone https://github.com/Vusoni/WhisperAI-ReactNative.git
+cd WhisperAI-ReactNative
 
-bun install
-# or
 npm install
 
 npx expo prebuild
+npm run ios  OR   npm run android
+
+Using the App
+
+First Launch
+	1.	Open the app
+	2.	Wait for the default model to finish loading
+	3.	Approve microphone permissions
+
+Live Transcription
+	1.	Start the recording session
+	2.	Speak naturally
+	3.	View transcription as it updates
+	4.	Stop to finalize the result
+
+File Transcription
+	1.	Trigger sample audio transcription
+	2.	Wait for processing to complete
+	3.	Review the generated transcript
+
+Changing Models
+	1.	Select a different model
+	2.	Allow download if required
+	3.	Model initializes automatically
+
+
+
+  Limitations
+	•	Background recording depends on OS policies
+	•	Long sessions may impact performance
+	•	WAV audio format is currently supported
+	•	Memory usage scales with model size
+
+
+
+
+
+
