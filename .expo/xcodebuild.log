@@ -1,0 +1,3 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -workspace /Users/oliwierkraszewski/Documents/Startup/WhisperAI/ios/whispercpptest.xcworkspace -configuration Debug -scheme whispercpptest -destination id=5CCC5BD8-C8EB-48D9-9D28-71F2F057B908
+
